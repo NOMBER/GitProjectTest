@@ -16,5 +16,13 @@ namespace GitProjectTest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+
+            button1.BackColor = randomColor;
+        }
     }
 }
