@@ -23,7 +23,7 @@ namespace GitProjectTest
             Color randomColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
             button1.BackColor = randomColor;
 
-            MessageBox.Show("You clicked the button");
+            MessageBox.Show("Ты нажал на кнопку, поздравляем!!!");
         }
     }
 }
